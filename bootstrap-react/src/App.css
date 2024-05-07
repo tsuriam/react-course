@@ -1,0 +1,44 @@
+/* .logo__link {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+} */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.nav__link-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 24px;
+  }
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  height: calc(100vh - 50px);
+  text-align: center;
+  width: 640px;
+  header {
+    
+  }
+}
+
+
